@@ -6,6 +6,8 @@
   - [Table of Contents](#table-of-contents)
   - [**Videos**](#videos)
   - [What is Python?](#what-is-python)
+  - [How to get started with Python?](#how-to-get-started-with-python)
+  - [The Basics](#the-basics)
 
 ---
 
@@ -18,5 +20,25 @@
 ---
 
 ## What is Python?
+
+---
+
+## How to get started with Python?
+
+---
+
+## The Basics
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ---
