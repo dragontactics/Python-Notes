@@ -37,6 +37,7 @@
 - [ ] Make a simple to do list
   - [ ] Have a GUI
   - [ ] Save to a json file
-- [ ] 
+- [ ] Automatic new summarizer
+- [ ] Create a launcher for your apps
 
 ---
