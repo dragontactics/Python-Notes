@@ -10,11 +10,21 @@
   - [How to get started with Python?](#how-to-get-started-with-python)
   - [Syntax](#syntax)
   - [Data Types](#data-types)
+  - [Comments](#comments)
   - [Assigning Variables](#assigning-variables)
   - [Getting Input](#getting-input)
     - [Casting](#casting)
     - [String Functions](#string-functions)
     - [Arithmetic Operations](#arithmetic-operations)
+  - [Comparison Operations](#comparison-operations)
+  - [Logical Operators](#logical-operators)
+  - [Conditional Statements](#conditional-statements)
+  - [Loops](#loops)
+    - [While Loops](#while-loops)
+    - [For Loops](#for-loops)
+  - [Lists](#lists)
+  - [Range Function](#range-function)
+  - [Tuples](#tuples)
   - [Libraries](#libraries)
   - [Frameworks](#frameworks)
 
@@ -76,6 +86,16 @@ Be sure that you have the latest version of python installed. You can use Pychar
 
 ---
 
+## Comments
+
+To write comments you use #.
+
+```python
+#Comment
+```
+
+---
+
 ## Assigning Variables
 
 ```python
@@ -107,6 +127,13 @@ str(123)
 
 ### String Functions
 
+You can add things to a string with variables.
+
+```python
+variableName = 'variable'
+print("This is a " + variableName)
+```
+
 | Functions  | Description |
 | - | - |
 | ```"a" in "away"```| Finds out if a string is in a string. Returns True. |
@@ -127,12 +154,127 @@ str(123)
 - / (Division) [This will return a floating point number]
   - // (Division) [This will return a integer number]
 - \* (Multiplication)
-- ** (Exponent)
+- ** (Exponent) or pow(number, exponent)
 - % (Modulus)
 
 > Augmented Operations => variableName (operator)= value.
 >
 > This would evaluate the expression of the variable and the value and replace the variable with the expression's value.
+
+| Functions | Description |
+|-|-|
+| round(numberVariable) | Returns the number to a integer |
+| sqrt(numberVariable) | Returns the square root of the number |
+| | |
+| | |
+| | |
+
+The order of operations is PEMDAS like, but to make sure that the expression is evaluated correctly use parentheses.
+
+---
+
+## Comparison Operations
+
+- \> (greater Than)
+- < (Less than)
+- <= (Greater than or equal to)
+- \>= (Less than or equal to)
+- == (Equal to)
+- != (Not equal to)
+
+> number < number2
+
+---
+
+## Logical Operators
+
+- and
+- or
+- not
+
+>Boolean and Boolean
+
+---
+
+## Conditional Statements
+
+There are if statements. To write them do this...
+
+There are elif statements.
+
+```python
+if condition:
+  ...
+elif condition2:
+  ...
+else:
+  ...
+```
+
+---
+
+## Loops
+
+### While Loops
+
+Will loop through a set of statements given that the condition is true.
+
+```python
+while condition:
+  ...
+```
+
+### For Loops
+
+```python
+listName= [...]
+for element in listName:
+  ...
+```
+
+---
+
+## Lists
+
+A list of elements.
+
+```python
+variableName = ["a", "b", "c", ..., "z"] #Make the list with elements
+variableName[-1] #z
+variableName[-2] #y
+variableName[0] = "ab" #changes it to ab
+variableName[0:3] #Selects the elements in the range
+```
+
+| Functions | Description |
+|-|-|
+| .insert(index, object) | inserts a new element in a list |
+| .remove(index) | removes the element |
+| .clear() | removes all elements |
+| object in listName | checks if a object is in a list. Returns a boolean. |
+| len(listName) | returns the length of the list |
+
+---
+
+## Range Function
+
+This will generate a range of numbers from zero to the given number or between two numbers and a third value that will act as a step.
+
+```python
+numbers = range(6) #0, 1, 2, 3, 4, 5
+numbers = range(6, 10)#6, 7, 8, 9
+numbers = range(5, 10, 2)#5, 7, 9
+```
+
+---
+
+## Tuples
+
+Tuples cannot be changed.
+
+```python
+numbers = (1, 2, 3, 4, 5, 6, ...)
+```
 
 ---
 

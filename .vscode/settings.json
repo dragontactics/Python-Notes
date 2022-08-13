@@ -3,6 +3,7 @@
         "bytearray",
         "frozenset",
         "memoryview",
-        "Nonetype"
+        "Nonetype",
+        "PEMDAS"
     ]
 }
