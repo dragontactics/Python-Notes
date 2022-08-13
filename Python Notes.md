@@ -25,6 +25,13 @@
   - [Lists](#lists)
   - [Range Function](#range-function)
   - [Tuples](#tuples)
+  - [Functions](#functions)
+  - [Try Exceptions](#try-exceptions)
+  - [Files](#files)
+    - [Reading Files](#reading-files)
+    - [Writing Files](#writing-files)
+    - [Appending Files](#appending-files)
+  - [Modules & Pip](#modules--pip)
   - [Libraries](#libraries)
   - [Frameworks](#frameworks)
 
@@ -253,6 +260,7 @@ variableName[0:3] #Selects the elements in the range
 | .clear() | removes all elements |
 | object in listName | checks if a object is in a list. Returns a boolean. |
 | len(listName) | returns the length of the list |
+| listName.copy() | Returns a copy the list |
 
 ---
 
@@ -278,6 +286,80 @@ numbers = (1, 2, 3, 4, 5, 6, ...)
 
 ---
 
+## Functions
+
+Functions are a set of statements that are executed when the function is called. You can have parameters.
+There is a return statement that can be used to return a value.
+
+```python
+def function_name: #All lower case and separated by underscores
+  ...
+def function_name(parameter1, ...):
+  ...
+  return ...
+  
+```
+
+---
+
+## Try Exceptions
+
+Can handle errors so that the program does not crash the program. Will try run the code in the try block and if it fails the program will go to the except block. You can have different statements for different exceptions.
+
+```python
+try:
+  ...
+except:
+  ...
+except ZeroDivisionError:
+  ...
+except ValueError:
+  ...
+```
+
+---
+
+## Files
+
+To access files you have to open the file in python but it is important to close the file when the program is done or the file's use is over.
+
+```python
+example_file = open("example.txt","r+") # r+ stands for reading and writing to a file
+example_file.close()
+```
+
+### Reading Files
+
+```python
+example_file = open("example.txt","r") # r stands for read
+example_file.readline()
+example_file.close()
+```
+
+### Writing Files
+
+>Will overwrite things in the file
+
+```python
+example_file = open("example.txt","w") # w stands for write
+example_file.write()
+example_file.close()
+```
+
+### Appending Files
+
+>Will NOT overwrite things in the file but will add to the end of the file
+
+```python
+example_file = open("example.txt","a") # a stands for append
+example_file.close()
+```
+
+---
+
+## Modules & Pip
+
+---
 ## Libraries
 
 ---
