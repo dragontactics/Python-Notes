@@ -377,7 +377,7 @@ External installed modules will be in site-packages.
 
 ## Classes
 
-Basically, a layout for a object. There are object functions and methods. 
+Basically, a layout for a object. There are object functions and methods.
 
 ```python
 example.py
