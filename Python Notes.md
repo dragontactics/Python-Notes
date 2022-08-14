@@ -147,13 +147,6 @@ print("This is a " + variableName)
 | Functions  | Description |
 | - | - |
 | ```"a" in "away"```| Finds out if a string is in a string. Returns True. |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
 
 ---
 
@@ -175,9 +168,6 @@ print("This is a " + variableName)
 |-|-|
 | round(numberVariable) | Returns the number to a integer |
 | sqrt(numberVariable) | Returns the square root of the number |
-| | |
-| | |
-| | |
 
 The order of operations is PEMDAS like, but to make sure that the expression is evaluated correctly use parentheses.
 
