@@ -226,6 +226,8 @@ example_dict = {
 }
 ```
 
+>No Duplicates allowed
+
 ---
 
 ## Loops
