@@ -19,6 +19,7 @@
   - [Comparison Operations](#comparison-operations)
   - [Logical Operators](#logical-operators)
   - [Conditional Statements](#conditional-statements)
+  - [Dictionaries](#dictionaries)
   - [Loops](#loops)
     - [While Loops](#while-loops)
     - [For Loops](#for-loops)
@@ -209,6 +210,20 @@ elif condition2:
   ...
 else:
   ...
+```
+
+---
+
+## Dictionaries
+
+Dictionaries are are like maps where there are key value pairs. Dictionaries in 3.7 are ordered but earlier versions are unordered. 
+
+```python
+example_dict = {
+  "string" : "hello world",
+  "number" : 2,
+  "boolean" : True
+}
 ```
 
 ---
