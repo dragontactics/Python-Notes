@@ -40,8 +40,8 @@
 
 ## **Videos**
 
-- [ ] [Learn Python - Full Course for Beginners [Tutorial]](<https://www.youtube.com/watch?v=rfscVS0vtbw>)
-- [ ] [Python for Beginners - Learn Python in 1 Hour](<https://www.youtube.com/watch?v=kqtD5dpn9C8>)
+- [X] [Learn Python - Full Course for Beginners [Tutorial]](<https://www.youtube.com/watch?v=rfscVS0vtbw>)
+- [X] [Python for Beginners - Learn Python in 1 Hour](<https://www.youtube.com/watch?v=kqtD5dpn9C8>)
 - [ ] [Python Tutorial - Python Full Course for Beginners](<https://www.youtube.com/watch?v=_uQrJ0TkZlc>)
 - [ ] [Python Full Course 🐍 -Learn to code today-](<https://www.youtube.com/watch?v=XKHEtdqhLK8>)
 - [ ] [Intermediate Python Programming Course](<https://www.youtube.com/watch?v=HGOBQPFzWKo>)
