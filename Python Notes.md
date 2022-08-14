@@ -32,8 +32,9 @@
     - [Writing Files](#writing-files)
     - [Appending Files](#appending-files)
   - [Modules & Pip](#modules--pip)
-  - [Libraries](#libraries)
-  - [Frameworks](#frameworks)
+  - [Classes](#classes)
+  - [Objects](#objects)
+  - [Inheritance](#inheritance)
 
 ---
 
@@ -361,11 +362,70 @@ example_file.close()
 
 ## Modules & Pip
 
----
-## Libraries
+You can make modules so you can use them in your main program later. You can also import other modules. Importing a external modules/libraries will import it into the file.
+>[List of python modules (python 3.6.3)](<https://docs.python.org/3/py-modindex.html>)
+
+```python
+programs.py
+  def functionName():
+    print("Its a function")
+  ...
+```
+
+```python
+main.py
+  import programs
+  programs.functionName()
+  ...
+```
+
+Pip is a package manager for python. It will install, update and uninstall modules. Python 3 will have pip installed.
+
+External installed modules will be in site-packages.
 
 ---
 
-## Frameworks
+## Classes
+
+Basically, a layout for a object. There are object functions and methods. 
+
+```python
+example.py
+class Class_Name:
+  
+  def __init__(self, variable1): # self is just the name of the object
+    self.variable1 = variable1
+    ...
+  
+  def function_name(): # can add parameters to the function
+  ... # Can change object properties
+```
 
 ---
+
+## Objects
+
+The result of a filled out class.
+
+```python
+from Class_Name import example
+object_name = Class_Name("variable")
+object_name.function_name
+```
+
+---
+
+## Inheritance
+
+Classes can inherit from other classes.
+
+```python
+example.py
+class Class_Name(Other_Class):
+
+  def new_function_name(): # can add parameters to the function
+  ... # Can change object properties
+```
+
+---
+
